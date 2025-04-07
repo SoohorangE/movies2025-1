@@ -16,6 +16,7 @@ def random_genres_items(genre: str):
     # todo 선택한 장르의 갯수가 5보다 작은경우 처리해야함 2025.3.31
 
     nitem = min(5, len(genre_df)) #genre.df.shape[0] : 크기 [1]: 컬럼갯수
+
     print(len(genre_df))
     result_items = genre_df.sample(n=nitem).to_dict(orient='records')
 

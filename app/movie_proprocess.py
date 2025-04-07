@@ -34,7 +34,7 @@ from tqdm import tqdm
 def add_poster(df):
     for i, row in tqdm(df.iterrows(), total=df.shape[0]):
         tmdb_id = row['tmdbId']
-        url = f'https://api.themoviedb.org/3/movie/{tmdb_id}?api_key=f2a1fddeef038db026fb3e05415e80f20000&language=en-US'
+        url = f'https://api.themoviedb.org/3/movie/{tmdb_id}?api_key=fb3c8d38911313b13f7ba45ac41675fe&language=en-US'
         result = requests.get(url)
         try :
             df.at[i, 'poster_path'] = "https://image.tmdb.org/t/p/original" + result.json()['poster_path']

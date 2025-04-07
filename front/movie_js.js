@@ -12,9 +12,11 @@ let MovieObject = {
             // 성공
             movielist = response.result
 
-            topdiv = document.getElementById("div")
-            topdiv.style = "column-count:5"
-            document.body.appendChild(topdiv)
+            // topdiv = document.getElementById("div")
+            // topdiv.style = "column-count:5"
+            // document.body.appendChild(topdiv)
+
+            topdiv = document.getElementById("alldiv")
 
             movielist.forEach(movie => {
 
