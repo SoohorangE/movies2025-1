@@ -1,0 +1,28 @@
+annotated-types==0.7.0
+anyio==4.9.0
+certifi==2025.1.31
+charset-normalizer==3.4.1
+click==8.1.8
+exceptiongroup==1.2.2
+fastapi==0.115.12
+h11==0.14.0
+idna==3.10
+implicit==0.7.2
+joblib @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_8ff7uji0v2/croot/joblib_1718217225309/work
+numpy @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_f2amvjkczw/croot/numpy_and_numpy_base_1725470317860/work/dist/numpy-2.0.1-cp39-cp39-macosx_11_0_arm64.whl#sha256=0cf700178637cc9f2b40ce7c07ed71b40836ff9eb66246a5b07dc574b0f55422
+pandas==2.2.3
+pydantic==2.10.6
+pydantic_core==2.27.2
+python-dateutil==2.9.0.post0
+pytz==2025.1
+requests==2.32.3
+scipy @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_baum73h1re/croot/scipy_1733756482902/work/dist/scipy-1.13.1-cp39-cp39-macosx_11_0_arm64.whl#sha256=0248fb57576996ce5e08c81ede258700aa6fbf2aba47e21fa6c0a25ce7501638
+six==1.17.0
+sniffio==1.3.1
+starlette==0.46.1
+threadpoolctl==3.6.0
+tqdm==4.67.1
+typing_extensions==4.12.2
+tzdata==2025.2
+urllib3==2.3.0
+uvicorn==0.34.0
